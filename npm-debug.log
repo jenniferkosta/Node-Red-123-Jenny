@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\Users\\debiejkos\\node_modules\\123_jenny',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory D:\Users\debiejkos\AppData\Roaming\npm-cache\node-red-contrib-123-jenny\1.0.0\package.tgz not in flight; packing
+9 verbose correctMkdir D:\Users\debiejkos\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 verbose tar pack [ 'D:\\Users\\debiejkos\\AppData\\Roaming\\npm-cache\\node-red-contrib-123-jenny\\1.0.0\\package.tgz',
+10 verbose tar pack   'D:\\Users\\debiejkos\\node_modules\\123_jenny' ]
+11 verbose tarball D:\Users\debiejkos\AppData\Roaming\npm-cache\node-red-contrib-123-jenny\1.0.0\package.tgz
+12 verbose folder D:\Users\debiejkos\node_modules\123_jenny
+13 info prepublish node-red-contrib-123-jenny@1.0.0
+14 verbose addLocalTarball adding from inside cache D:\Users\debiejkos\AppData\Roaming\npm-cache\node-red-contrib-123-jenny\1.0.0\package.tgz
+15 verbose correctMkdir D:\Users\debiejkos\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+16 silly cache afterAdd node-red-contrib-123-jenny@1.0.0
+17 verbose afterAdd D:\Users\debiejkos\AppData\Roaming\npm-cache\node-red-contrib-123-jenny\1.0.0\package\package.json not in flight; writing
+18 verbose correctMkdir D:\Users\debiejkos\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+19 verbose afterAdd D:\Users\debiejkos\AppData\Roaming\npm-cache\node-red-contrib-123-jenny\1.0.0\package\package.json written
+20 silly publish { name: 'node-red-contrib-123-jenny',
+20 silly publish   version: '1.0.0',
+20 silly publish   description: 'x',
+20 silly publish   main: '123-jenny.js',
+20 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+20 silly publish   repository:
+20 silly publish    { type: 'git',
+20 silly publish      url: 'git+https://github.com/jenniferkosta/Node-Red-123-Jenny.git' },
+20 silly publish   keywords: [ 'node-red', 'jenny', '123' ],
+20 silly publish   author: { name: 'Jennifer Kosta' },
+20 silly publish   license: 'MIT',
+20 silly publish   bugs: { url: 'https://github.com/jenniferkosta/Node-Red-123-Jenny/issues' },
+20 silly publish   homepage: 'https://github.com/jenniferkosta/Node-Red-123-Jenny#readme',
+20 silly publish   readme: 'x',
+20 silly publish   readmeFilename: 'README.md',
+20 silly publish   _id: 'node-red-contrib-123-jenny@1.0.0',
+20 silly publish   _shasum: 'a505ed7767d9701d8bd5385faf7c43aec611948c',
+20 silly publish   _from: '.' }
+21 verbose getPublishConfig undefined
+22 silly mapToRegistry name node-red-contrib-123-jenny
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: 'node-red-contrib-123-jenny',
+25 silly mapToRegistry   scope: null,
+25 silly mapToRegistry   name: 'node-red-contrib-123-jenny',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/node-red-contrib-123-jenny
+27 verbose publish registryBase https://registry.npmjs.org/
+28 silly publish uploading D:\Users\debiejkos\AppData\Roaming\npm-cache\node-red-contrib-123-jenny\1.0.0\package.tgz
+29 verbose stack Error: auth required for publishing
+29 verbose stack     at CachingRegistryClient.publish (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\publish.js:30:14)
+29 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\publish.js:134:14
+29 verbose stack     at mapToRegistry (C:\Program Files\nodejs\node_modules\npm\lib\utils\map-to-registry.js:62:3)
+29 verbose stack     at publish_ (C:\Program Files\nodejs\node_modules\npm\lib\publish.js:104:3)
+29 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+29 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+29 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:14:28)
+29 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+29 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\publish.js:73:5
+29 verbose stack     at RES (C:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+30 verbose cwd D:\Users\debiejkos\node_modules\123_jenny
+31 error Windows_NT 6.1.7601
+32 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+33 error node v4.4.7
+34 error npm  v2.15.8
+35 error code ENEEDAUTH
+36 error need auth auth required for publishing
+36 error need auth You need to authorize this machine using `npm adduser`
+37 verbose exit [ 1, true ]
